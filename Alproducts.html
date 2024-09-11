@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>A window folding door</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- csss style link -->
+  <link rel="stylesheet" href="style.css">
+   <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   <!-- jquer link -->
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+                     <!-- header section strats -->
+       <header class="header_section">
+         <nav class="navbar navbar-expand-lg custom_nav-container ">
+              <a class="navbar-brand" href="#"><img  class="logo" src="image/Sindh-crafts-logo-removebg-preview.png" alt="" srcset=""><span>Sindh Crafts</span></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class=""> </span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 <ul class="navbar-nav">
+                    <li class="nav-item">
+                       <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                     <a class="nav-link" href="gallery.html">Gallery</a>
+                  </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="Aboutus.html">About Us</a>
+                    </li>
+                   
+                    <li class="nav-item">
+                       <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Account<span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="login.html"> &nbsp;&nbsp; Login </a></li>
+                        <li><a href="Register.html">&nbsp;&nbsp;Register</a></li>
+                     </ul>
+                    <li class="nav-item">
+                       <a class="nav-link" href="#">
+                           <div class="cart"><i class="fa-solid fa-cart-shopping fa-lg"></i> <small>0</small>Cart</a></li></div>
+                    </li>
+                  
+                 </ul>
+           </nav>
+      </header>
+  
+                                                                                   <!-- Section Navbar end -->
+                        
+                              <!-- section Handicrafts products list start-->
+   <section class="container-fluid">
+      <Main class="row"   > 
+         <div class="col-sm-4">
+             <div class="product-list-icon">
+                <br>
+                  <div>
+                     <button class="btn" id="product-list" > <i class="fa-solid fa-bars fa-2xl" style="color: #f3f3f3;"></i></button>
+                   </div>
+                       <h4 id="products"  class="text-white" >
+                         HandiCrafts Products
+                       </h4>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                   <div class="container">
+                     <form action="">
+                         <div class="search">
+                            <input type="search" name="" id="" class="input-search" placeholder="Search here " >
+                            <button class="search-btn"  ><i class="fa fa-search fa-xl" aria-hidden="true"></i></button>
+                         </div>
+                      </form>  
+                  </div>              
+            </div>  
+       </Main>
+       <!-- section start Handirafts section -->
+       <div class="col-md-6">
+          <div class="product-list">
+              <a class="dropdown-item" href="tablewares.html">Table Wares</a>
+              <a class="dropdown-item" href="Home Decor.html">Home Decor</a>
+              <a class="dropdown-item" href="featuredproducts.html">Featured Products</a>
+              <a class="dropdown-item" href="ironhandicraft.html">Iron Handicrafts</a>  
+              <a class="dropdown-item" href="woodHandicrafts.html">Wood Handicrafts</a>
+              <a class="dropdown-item" href="brass Handicrafts.html">Brass Handicrafts</a>
+              <a class="dropdown-item" href="Aluminuim.html">Alluminuim Handicrafts</a>
+              <a class="dropdown-item" href="Glass-Handicrafts.html">Glass Handicrafts</a>
+              <a class="dropdown-item" href="decorative Handicrafts.html">Decorative Handicratfs</a>
+              <a class="dropdown-item" href="candle Handicrafts.html">Candle Accessories</a>
+          </div>
+      </div>
+   </section>
+       <!-- section end Handirafts section -->
+                 <div class="container">
+                   <br><br>
+    <div class="row">
+          <div class="col-md-2">                                        
+            <img    onclick="Change1()"   src="product Details pic/01.jpeg" alt="" srcset="" class="mini-image"> &nbsp;
+            <img    onclick="Change2()"   src="product Details pic/02.jpeg" alt="" srcset="" class="mini-image"> &nbsp;
+            <img    onclick="Change3()"   src="product Details pic/03.jpeg" alt="" srcset="" class="mini-image"> &nbsp;
+            <img    onclick="Change4()"   src="product Details pic/images.jpeg"alt="" srcset="" class="mini-image">
+            <img    onclick="Change5()"   src="product Details pic/04.jpeg"alt="" srcset="" class="mini-image">
+         </div>
+          <div class="col-md-5">
+            <div class="image-container">
+               <img src="product Details pic/images.jpeg" alt="Product Image" id="product-image">
+               <div class="zoom-overlay" id="zoom-overlay"></div>
+           </div>
+         </div>
+            
+     <div class="col-md-5">
+       <div class="productdescription">
+         <div class="product-details">
+           <div class="product-details-title">
+              A window folding door with aluminium glazing is a versatile and modern 
+           </div>
+           <div class=" detail-product-status" > 
+            <span>
+             Available Peices:15
+            </span>
+           <span class="text-success"> 
+            In stock
+            </span> 
+            </div>
+            <div class=" detail-product-status" > 
+              <span>
+                Price :$ 50:00 
+             </span>
+            <div>
+             <span>
+                length: 4ft X 4ft
+             </span>
+             </div>
+             </div>
+               <div class=" detail-product-status" > 
+                 <span class="ratings">
+                         Ratings:(4.8) <br>
+                     <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+                     <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+                     <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+                     <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+                     <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+               </span>
+              <div>
+               <span>
+                <a href="faqs.html">  Answer & Questions</a>
+               </span>
+             </div>
+             </div>
+              Sub Total: $   <input type="number" name="" id="new"  class="new-price"> 
+              <div class="buttons">
+               <input type="number" name="" id="price" class="input-price"  >
+                 <a href="" class="add-to-cart" id="a">
+                    Add To Cart
+                </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                 <a href="" class="buy-now" id="a" >
+                 Buy Now
+               </a>
+               </div>   
+                <br>
+              </div>     
+              </div>
+          </div>
+       </div>
+     </div>
+     
+      <section class="container-fluid" >
+          <div class="col-md-12">
+            <div class="description">
+                <h3><b>Description:</b></h3>
+                <p>
+                  solution for enhancing natural light, ventilation, and access to outdoor spaces in a building.
+                  These doors feature multiple panels that fold and slide to create a wide opening, seamlessly 
+                  connecting indoor and outdoor living areas. The aluminium framing provides durability, strength,
+                  and a sleek, contemporary aesthetic. The glazing, typically made of energy-efficient glass, 
+                  allows for unobstructed views and thermal insulation. Window folding doors with aluminium
+                  glazing are popular in residential and commercial settings for their functionality, aesthetic 
+                  appeal, and ability to maximize space and natural light.
+                </p>
+                <h4>  Qualities in Product:</h4>
+                <h5> Window folding doors with aluminium glazing offer several key qualities: </h5>
+                <h6> <b>1 : Versatility: </b>These doors provide a flexible and customizable solution for creating large openings and seamless transitions between indoor and outdoor spaces.</h6>
+                <h6> <b>2 : Durability:</b> The aluminium framing offers robust and long-lasting performance, making the doors resistant to corrosion, warping, and weather damage.</h6>
+                <h6> <b> 3 : Aesthetic Appeal:</b> The sleek and modern design of aluminium framing combined with expansive glazing creates a sophisticated and stylish addition to any building.</h6>
+                <h6> <b>4 : Energy Efficiency:</b> The use of high-quality glazing materials ensures excellent thermal insulation, reducing heat loss and potentially lowering energy costs.</h6>
+                <h6> <b>5 : Space Optimization:</b> The foldable design of these doors allows for maximum space utilization, making them ideal for areas with limited room for traditional door swings.</h6>
+                <h6> <b>6 : Natural Light:</b> The large glass panels maximize natural light intake, promoting a bright and airy indoor environment.</h6>
+                <h6><b> 7 : Security:</b> Many window folding doors with aluminium glazing are equipped with advanced locking systems, providing secure entry points to the property.</h6>
+                <h6> <b>8 : These qualities.</b> make window folding doors with aluminium glazing a popular choice for modern architectural designs and renovations.</h6>
+          </div>
+          </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="Heading">
+           <span> Products</span> you can like.
+            </div>
+          </div>
+        </div>
+        <div class="row  ">
+          <div class="col-md-3    " data-target="#Model1">
+            <div class="products-detail-box"><input class="image" type="image" src="product Details pic/glass-01.jpeg" alt="">
+                  <div class="Productstitle">
+                    Glass Elegant Decorative.
+                    </div>
+                      <div class="pr-price">
+                      <p> Price: $60.00</p> 
+                      <span class="ratings">
+                        Ratings:(4.8) <br>
+                    <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+                    <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+                    <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+                    <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+                    <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+                      </span>
+                   </div>
+                   <div class="options">
+                    <a href="pr -deatails-glass.html" class="option1">
+                     Buy Now
+                     </a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3    " data-target="#Model1">
+           <div class="products-detail-box"><input class="image" type="image" src="image/featured 03.png" alt="">
+               <div class="Productstitle">
+                      Creative Metal Wall Clock Vintage
+               </div>
+               <div class="pr-price">
+                <p> Price: $40.00</p> 
+                <span class="ratings">
+                  Ratings:(4.0) <br>
+                  <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+                  <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+                  <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+                  <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+                
+                </span>
+               </div>
+               <div class="options">
+                <a href="Metalclock-details.html" class="option1">
+                 Buy Now
+                 </a>
+              </div>
+           </div>
+       </div>
+          <div class="col-md-3    " data-target="#Model1">
+            <div class="products-detail-box"><input class="image" type="image" src="image/Alluminium05.jpeg" alt="">
+                <div class="Productstitle">
+                  old style watch
+                 </div>
+                <div class="pr-price">
+                 <p> Price: $40.00</p> 
+                 <span class="ratings">
+                   Ratings:(4.8) <br>
+                   <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+                   <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+                   <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+                   <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+                   <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+                  </span>
+                </div>
+                <div class="options">
+                  <a href="old-style-watch.html" class="option1">
+                   Buy Now
+                   </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3    " data-target="#Model1">
+         <div class="products-detail-box"><img class="image"  src="product Details pic/led-glass-01.jpeg" alt="">
+             <div class="Productstitle">
+                Glass Led Round Mosaic Table.
+              </div>
+             <div class="pr-price">
+              <p> Price: $40.00</p> 
+              <span class="ratings">
+                    Ratings:(4.8) <br>
+                <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+                <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+                <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+                <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+                <i class="fa fa-star fa-sm" aria-hidden="true"></i>
+              </span>
+             </div>
+             <div class="options">
+              <a href="glass-led.html" class="option1">
+               Buy Now
+               </a>
+             </div>
+          </div>
+       </div>
+    </section>
+<div class="footer">
+  <div class="row">
+      <div class="col-md-4">
+         <div class="footer-text">
+            <div class="footer-Head">
+               <span><img  class="logo" src="image/Sindh-crafts-logo-removebg-preview.png" alt=""> &nbsp; Sindh Crafts</span>
+            </div>
+            <div class="information-text">
+              <strong class="text-white">LOCATION:</strong>
+              <br>
+              <p> 58, MAIN ROAD, SADAR BAZAR- Karachi, Pakistan</p>
+              <p><strong>TELEPHONE:</strong> +0900-784523</p>
+              <p><strong>EMAIL:</strong>Sindhcrafts786@gmail.com</p>
+            </div>
+         </div>
+      </div>
+         <div class="col-md-3"> 
+            <div class="footer-text">
+                <div class="footer-text-heading">
+                   MENU
+                </div>
+               <p> <a href="home.html">Home</a> </p>
+               <p> <a href="">About Us</a></p>
+               <p> <a href="">Contact Us </a></p>
+               <p><a href="gallery.html">Gallery</a></p>
+            </div>
+         </div>                       
+        <div class="col-md-3"> 
+           <div class="footer-text">
+               <div class="footer-text-heading">
+                Links
+               </div>
+                    <p>  <a href="faqs.html"> FAQS?</a></p>
+                    <p><a href="">  Site Map</a></p>
+                    <p><a href="pivacy policy.html">privacy policy</a> </p>
+                    <p><a href="help.html">Help & Support</a></p>
+           </div>
+        </div>
+         <div class="col-md-2"> 
+           <div class="footer-text">
+            <br>
+               <div class="footer-text-heading">
+                 ACCOUNT 
+               </div>
+             <p> <a href="Check.html">Checkout</a></p>
+             <p>  <a href="login.html">Login</a></p>
+             <p><a href="Register.html"> Register</a></p>
+             <p><a href=""> Your Order</a></p>
+           </div>
+         </div>  
+        
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="payment-method-text">
+                       Payment Methods :    <br>
+                        <div class="payment-method-icon">
+                           <div>
+                               <i class="fa-solid fa-truck fa-xl" style="color: #f7f8f6;"></i>  <br>
+                               Cash on Delivery 
+                           </div>
+                            <div>
+                                <i class="fa-regular fa-credit-card fa-xl" style="color: #09ec95;"></i><br>
+                                credit-Card
+                            </div>
+                            <div>
+                                <i class="fa-brands fa-cc-visa fa-xl" style="color: #FFD43B;"></i><br>
+                               visa-Card
+                            </div>
+                             <div>
+                               <i class="fa-brands fa-cc-mastercard fa-xl" style="color: #f06f1a;"></i><br>
+                               Master-card 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+                <div class="col-md-6">
+                    <div class="follow-us">
+                      <div class="footer-text-heading">
+                       Follow Us:
+                        </div>
+                         <br>
+                         <div class="social-icon" >
+                          <div class="facebook-icon">
+                             <a href=""><i class="fa-brands fa-facebook fa-xl"></i></a>
+                         </div>
+                          <div class="instagram-icon">
+                             <a href=""><i class="fa-brands fa-instagram fa-xl" ></i></a>
+                         </div>
+                          <div class="whatsapp-icon">
+                             <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                         </div>
+                          <div class="linkdin-icon">
+                             <a href=""><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                         </div>
+                          <div class="pinerest-icon">
+                             <a href=""><i class="fa-brands fa-pinterest fa-xl"></i></a>
+                         </div>
+                          <div class="twitter-icon">
+                             <a href=""><i class="fa-brands fa-twitter fa-xl"></i></a>
+                         </div>
+                     </div>
+                </div>
+            </div>
+              <div class="col-md-12">
+                 <div class="subscribe-btn">
+                    <div class="footer-text-heading">
+                       NewsLaters
+                    </div>
+                     <p>
+                        Subscribe by our newsletter and get update protidin.
+                     </p>
+                      <div class="form_sub">
+
+                       <form action="">
+                          <div class="field">
+                             <input type="email" placeholder="Enter Your Mail" name="email" class="Email">
+                             <input type="submit" value="Subscribe" class="Subscribe">
+                          </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+   </div>
+ <div class="Copy-right">
+             <p class="mx-auto">© 2024 All Rights Reserved <head>Sindh Crafts</head></a><br>
+                Distributed By Sindh Crafts .pk
+               </p>    
+            </div>  
+            <script>
+               let price = document.getElementById('price')
+               let newprice = document.getElementById('new')
+                price.addEventListener( 'input', function ( ){
+               let A =    this.value;
+                let  B= A*50
+                newprice.value = B
+                })
+            </script>
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

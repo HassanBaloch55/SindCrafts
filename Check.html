@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Checkout-Page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+         <!-- header section strats -->
+         <header class="header_section">
+          <nav class="navbar navbar-expand-lg custom_nav-container ">
+               <a class="navbar-brand" href="#"><img  class="logo" src="image/Sindh-crafts-logo-removebg-preview.png" alt="" srcset=""><span>Sindh Crafts</span></a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class=""> </span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav">
+                     <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home </a>
+                     </li>
+                     <li class="nav-item">
+                      <a class="nav-link" href="gallery.html">Gallery</a>
+                   </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="Aboutus.html">About Us</a>
+                     </li>
+                    
+                     <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Account<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                         <li><a href="login.html"> &nbsp;&nbsp; Login </a></li>
+                         <li><a href="Register.html">&nbsp;&nbsp;Register</a></li>
+                      </ul>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <div class="cart"><i class="fa-solid fa-cart-shopping fa-lg"></i> <small>0</small>Cart</a></li></div>
+                     </li>
+                   
+                  </ul>
+            </nav>
+       </header>
+   
+                                                                                    <!-- Section Navbar end -->
+      <div class="title">
+        Wellcome To  Online Payment Services
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+                  <form action="" class="check-form" id="check">
+                   <div class="bill">
+                    <h3>Billing  address</h3>
+                    <label for=""> <i class="fa fa-user"></i> Full Name </label>
+                      <input type="text" class="form-control" placeholder="Ussername" id="User">
+                    <label for=""><i class="fa fa-envelope"></i> Email </label>
+                       <input type="email" class="form-control" placeholder="example23@gmail.com" id="email">
+                    <label for="">  <i class="fa fa-address-card" aria-hidden="true"></i> Address </label>
+                       <input type="text" class="form-control" name="address" placeholder="H-NO-181-NAZIMABAD" id="add">
+                    <label for=""> <i class="fa fa-institution"></i> City </label>
+                       <input type="text"  class="form-control" name="state" placeholder="Karachi" id="city">
+                    <label for=""> Zip-code</label>
+                       <input type="text" class="form-control" name="zip" placeholder="74600" id="code">
+                   </div>
+                   <br>
+                  <div class="card">
+                    <div>
+                      <h1>
+                        Payment 
+                      </h1>
+                      <h2>Accepted Cards </h2>
+                     
+                   </div>
+                   <div class="check-icon">
+                    <i class="fa-regular fa-credit-card fa-xl" style="color: rgb(6, 27, 19)"></i>
+                    <i class="fa-brands fa-cc-visa fa-xl" style="color: #0b07e0;"></i>
+                    <i class="fa-brands fa-cc-mastercard fa-xl" style="color: #e90404;"></i>
+                    <i class="fa-brands fa-cc-discover fa-xl" style="color: #eed707;"></i>
+               
+                   </div>
+                   <div>
+                     Name on Card 
+                      <input type="text" class="form-control" name="cardname" placeholder="M.Hassan"  id="Name"> 
+                   </div>
+                   <div>
+                  Card Number
+                    <input type="text" class="form-control" name="c-number" placeholder="11111-22222-3333" id="crd_n">
+                   </div>
+                   <div>
+                    Exp Month  
+                    <input type="text" class="form-control" name="expmonth" placeholder="March" id="ex_m">
+                   </div>
+                   <div>
+                    Exp Year
+                    <input type="text" class="form-control" name="expyear" placeholder="2025" id="ex_y">
+                   </div>
+                   <div>
+                    CVV
+                    <input type="text" class="form-control" name="cvv" placeholder="143" id="cvv_n">
+                   </div>
+                   <div>
+                    <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                   </div>
+                   <div>
+                    <input type="submit" value="Continue to checkout" class="chech-out-btn"  onclick=" checkvalidation() ">
+                   </div>
+                  </div>
+                  </form>
+          </div>
+          <div class="col-md-4">
+            <div class="check-cart">
+              <div class=" checkout-cart"> 
+              Cart <span class="price"><i class="fa fa-shopping-cart"></i> 4 </span>
+           </div>
+           <p><a href="#">Home Decoration</a> &nbsp; &nbsp; &nbsp; &nbsp;  <span class="price">$40</span></p>
+           <p><a href="#">Wooden Table</a>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="price">$40</span></p>
+           <p><a href="Alproducts.html">BI-FOLD DOOR</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="price">$50</span></p>
+           <p><a href="#">Creative Metal Wall</a>  &nbsp; &nbsp; &nbsp; <span class="price">$25</span></p>
+           <hr>
+           <p> <span >Total   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>$155</b></span></p>
+         </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="footer">
+        <div class="row">
+        <div class="col-md-4">
+           <div class="footer-text">
+              <div class="logo_footer">
+                <a href="#"><img  class="logo" src="image/Sindh-crafts-logo-removebg-preview.png" alt=""></a>
+              </div>
+              <div class="information-text">
+                <strong class="text-white" >LOCATION:</strong>
+                <p> 58, MAIN ROAD, SADAR BAZAR- Karachi, Pakistan</p>
+                <p><strong>TELEPHONE:</strong> +0900-784523</p>
+                <p><strong>EMAIL:</strong>Sindhcrafts786@gmail.com</p>
+                
+              </div>
+           </div>
+        </div>
+     
+            <div class="col-md-4"> 
+              <div class="footer-text">
+                <div class="footer-text-heading">
+                    Top Pages
+                </div>
+               <p> <a href="index.html">Home</a></p>
+               <p><a href=""> Your Order</a></p>
+               <p> <a href="Check.html">Checkout</a></p>
+               <p><a href="pivacy policy.html">privacy policy</a> </p>
+               <p><a href="help.html">Help & Support</a></p>
+           </div> 
+        </div>     
+                                  
+          <div class="col-md-4"> 
+            <br> 
+          
+                <div class="follow-us">
+                  <div class="footer-text-heading">
+                   Follow Us:
+                    </div>
+                     <br>
+                     <div class="social-icon" >
+                      <div class="facebook-icon">
+                        <a href=""><i class="fa-brands fa-facebook fa-xl"></i></a>
+                     </div>
+                      <div class="instagram-icon">
+                        <a href=""><i class="fa-brands fa-instagram fa-xl" ></i></a>
+                     </div>
+                      <div class="whatsapp-icon">
+                        <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                     </div>
+                      <div class="linkdin-icon">
+                        <a href=""><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                     </div>
+                      <div class="pinerest-icon">
+                        <a href=""><i class="fa-brands fa-pinterest fa-xl"></i></a>
+                     </div>
+                      <div class="twitter-icon">
+                         <a href=""><i class="fa-brands fa-twitter fa-xl"></i></a>
+                      </div>
+
+                 </div>
+               </div>
+            </div>
+         </div>  
+    </div>
+          <div class="Copy-right">
+               <p class="mx-auto">© 2024 All Rights Reserved By <a href=""><span class="text-white">Sindh Crafts</span></a><br>
+                  Distributed By Sindh Crafts .pk
+                 </p>    
+              </div> 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+
+</html>
