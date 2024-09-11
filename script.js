@@ -38,7 +38,7 @@
     //  end scpript code product-list
    
     // limited time products countdown
-    let end= new Date("june 22, 2024 12:00:00").getTime();
+    let end= new Date("Sep 22, 2024 12:00:00").getTime();
     let x= setInterval(function(){
     let now= new Date().getTime();
     let time= end-now ;
